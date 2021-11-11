@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    float metre,mile;
+    printf("entrer la distance en metre");
+    scanf("%f",&metre);
+    mile = metre / 1609.344;
+    printf("votre distance en miles est mile=%f",mile);
+    return(0);
+
+}
