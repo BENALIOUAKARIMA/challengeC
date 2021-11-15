@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int x, y, s, st;
+    printf("entrer la somme du x et y");
+    scanf("%d%d",&x, &y);
+    s=x+y;
+    printf("s est :%d\n",s);
+    st=s*3;
+    printf("st est:%d\n",st);
+    printf("Hello World");
+
+    return 0;
+}
